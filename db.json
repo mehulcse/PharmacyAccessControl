@@ -1,0 +1,121 @@
+{
+  "patientsTable": [
+    {
+      "id": 1,
+      "type": "prescription",
+      "name": "Prescription 1",
+      "patient_id": 1,
+      "patient_name": "Patient 1",
+      "pending_auth_requests": [],
+      "accepted_auth_requests": []
+    },
+    {
+      "pending_auth_requests": [],
+      "accepted_auth_requests": [],
+      "type": "medical_record",
+      "name": "Medical Record 1",
+      "patient_id": 1,
+      "patient_name": "Patient 1",
+      "id": 2
+    },
+    {
+      "pending_auth_requests": [],
+      "accepted_auth_requests": [
+        {
+          "id": 3,
+          "name": "Pharmacist"
+        }
+      ],
+      "type": "prescription",
+      "name": "Prescription 2",
+      "patient_id": 1,
+      "patient_name": "Patient 1",
+      "id": 3
+    },
+    {
+      "pending_auth_requests": [],
+      "accepted_auth_requests": [],
+      "type": "medical_record",
+      "name": "Medical Record 2",
+      "patient_id": 1,
+      "patient_name": "Patient 1",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "type": "prescription",
+      "name": "Prescription 1",
+      "patient_id": 2,
+      "patient_name": "Patient 2",
+      "pending_auth_requests": [],
+      "accepted_auth_requests": []
+    },
+    {
+      "pending_auth_requests": [],
+      "accepted_auth_requests": [
+        {
+          "id": 2,
+          "name": "Doctor"
+        }
+      ],
+      "type": "medical_record",
+      "name": "Medical Record 1",
+      "patient_id": 1,
+      "patient_name": "Patient 2",
+      "id": 6
+    },
+    {
+      "pending_auth_requests": [],
+      "accepted_auth_requests": [],
+      "type": "prescription",
+      "name": "Prescription 2",
+      "patient_id": 1,
+      "patient_name": "Patient 2",
+      "id": 7
+    },
+    {
+      "pending_auth_requests": [],
+      "accepted_auth_requests": [
+        {
+          "id": 2,
+          "name": "Doctor"
+        }
+      ],
+      "type": "medical_record",
+      "name": "Medical Record 2",
+      "patient_id": 1,
+      "patient_name": "Patient 2",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "type": "patient",
+      "name": "Patient 1",
+      "email": "p1@m.com",
+      "password": "password"
+    },
+    {
+      "id": 2,
+      "type": "patient",
+      "name": "Patient 2",
+      "email": "p2@m.com",
+      "password": "password"
+    },
+    {
+      "id": 2,
+      "type": "doctor",
+      "name": "Doctor",
+      "email": "d@m.com",
+      "password": "password"
+    },
+    {
+      "id": 3,
+      "type": "pharmacist",
+      "name": "Pharmacist",
+      "email": "ph@m.com",
+      "password": "password"
+    }
+  ]
+}
