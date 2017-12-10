@@ -11,7 +11,7 @@ npm install
 npm start
 ```
 
-###To Run Mock DB
+### To Run Mock DB
 
 ```
 json-server --watch db.json --port 3004
