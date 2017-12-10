@@ -11,7 +11,12 @@
     },
     {
       "pending_auth_requests": [],
-      "accepted_auth_requests": [],
+      "accepted_auth_requests": [
+        {
+          "id": 2,
+          "name": "Doctor"
+        }
+      ],
       "type": "medical_record",
       "name": "Medical Record 1",
       "patient_id": 1,
