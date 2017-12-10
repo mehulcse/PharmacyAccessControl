@@ -1,16 +1,26 @@
 {
   "patientsTable": [
     {
-      "id": 1,
+      "pending_auth_requests": [
+        {
+          "id": 4,
+          "name": "Pharmacist"
+        }
+      ],
+      "accepted_auth_requests": [],
       "type": "prescription",
       "name": "Prescription 1",
       "patient_id": 1,
       "patient_name": "Patient 1",
-      "pending_auth_requests": [],
-      "accepted_auth_requests": []
+      "id": 1
     },
     {
-      "pending_auth_requests": [],
+      "pending_auth_requests": [
+        {
+          "id": 3,
+          "name": "Doctor"
+        }
+      ],
       "accepted_auth_requests": [],
       "type": "medical_record",
       "name": "Medical Record 1",
@@ -55,7 +65,12 @@
       "id": 6
     },
     {
-      "pending_auth_requests": [],
+      "pending_auth_requests": [
+        {
+          "id": 4,
+          "name": "Pharmacist"
+        }
+      ],
       "accepted_auth_requests": [],
       "type": "prescription",
       "name": "Prescription 2",
