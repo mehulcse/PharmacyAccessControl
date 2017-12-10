@@ -11,12 +11,7 @@
     },
     {
       "pending_auth_requests": [],
-      "accepted_auth_requests": [
-        {
-          "id": 2,
-          "name": "Doctor"
-        }
-      ],
+      "accepted_auth_requests": [],
       "type": "medical_record",
       "name": "Medical Record 1",
       "patient_id": 1,
@@ -25,12 +20,7 @@
     },
     {
       "pending_auth_requests": [],
-      "accepted_auth_requests": [
-        {
-          "id": 3,
-          "name": "Pharmacist"
-        }
-      ],
+      "accepted_auth_requests": [],
       "type": "prescription",
       "name": "Prescription 2",
       "patient_id": 1,
@@ -57,15 +47,10 @@
     },
     {
       "pending_auth_requests": [],
-      "accepted_auth_requests": [
-        {
-          "id": 2,
-          "name": "Doctor"
-        }
-      ],
+      "accepted_auth_requests": [],
       "type": "medical_record",
       "name": "Medical Record 1",
-      "patient_id": 1,
+      "patient_id": 2,
       "patient_name": "Patient 2",
       "id": 6
     },
@@ -74,21 +59,16 @@
       "accepted_auth_requests": [],
       "type": "prescription",
       "name": "Prescription 2",
-      "patient_id": 1,
+      "patient_id": 2,
       "patient_name": "Patient 2",
       "id": 7
     },
     {
       "pending_auth_requests": [],
-      "accepted_auth_requests": [
-        {
-          "id": 2,
-          "name": "Doctor"
-        }
-      ],
+      "accepted_auth_requests": [],
       "type": "medical_record",
       "name": "Medical Record 2",
-      "patient_id": 1,
+      "patient_id": 2,
       "patient_name": "Patient 2",
       "id": 8
     }
@@ -109,14 +89,14 @@
       "password": "password"
     },
     {
-      "id": 2,
+      "id": 3,
       "type": "doctor",
       "name": "Doctor",
       "email": "d@m.com",
       "password": "password"
     },
     {
-      "id": 3,
+      "id": 4,
       "type": "pharmacist",
       "name": "Pharmacist",
       "email": "ph@m.com",
