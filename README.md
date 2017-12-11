@@ -14,7 +14,7 @@ npm start
 ### Install json-server
 On different CLI you need to install json-server globally 
 ```
-npm install --g json-server
+npm install -g json-server
 ```
 
 ### To Run json-server for Mock DB
