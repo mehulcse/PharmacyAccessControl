@@ -29,6 +29,6 @@ Open http://localhost:3000
 
 ### To Login you can use email and password from users array in db.json.  
 
-[Mock JSON link](db.json) <-- Refer user array. 
+[Mock JSON link](db.json#L116) <-- Refer user array. 
 
 You are all set now. :)
