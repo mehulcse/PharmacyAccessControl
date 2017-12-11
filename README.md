@@ -27,7 +27,7 @@ You can use any port number instead of 3004.
 Open http://localhost:3000
 ```
 
-###To Login you can use email and password from users array in db.json.  
+### To Login you can use email and password from users array in db.json.  
 
 [Mock JSON link](db.json) <-- Refer user array. 
 
