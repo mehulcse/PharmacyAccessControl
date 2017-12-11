@@ -1,6 +1,7 @@
 /**
- * Created by mehulcse on 09/12/17.
+ * Created by mehulcse on 11/12/17.
  */
+
 import React, { Component } from "react";
 import { login } from "./../actions";
 import { connect } from "react-redux";
@@ -22,18 +23,18 @@ class Login extends Component {
 
   render() {
     return (
-      <div className="main-search">
+      <section className="main-search">
         <form onSubmit={(e) => {
           e.preventDefault();
           this.props.login(this.state.userName, this.state.password, this.onLogin)
         }}>
-          <input type="text"
+          <input type="text" placeholder="Enter E-mail"
                  value={this.state.userName}
                  onChange={(e) => {
                    e.preventDefault();
                    this.setState({ userName: e.target.value });
                  }}/>
-          <input type="password"
+          <input type="password" placeholder="Enter Password"
                  value={this.state.password}
                  onChange={(e) => {
                    e.preventDefault();
@@ -47,7 +48,7 @@ class Login extends Component {
             Login
           </button>
         </form>
-      </div>
+      </section>
     );
   }
 }

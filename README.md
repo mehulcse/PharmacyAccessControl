@@ -11,8 +11,13 @@ npm install
 npm start
 ```
 
-### To Run Mock DB
+### Install json-server
+On different CLI you need to install json-server globally 
+```
+npm install --g json-server
+```
 
+### To Run Mock DB
 ```
 json-server --watch db.json --port 3004
 ```
@@ -21,3 +26,5 @@ You can use any port number instead of 3004.
 ```
 Open http://localhost:3000
 ```
+
+You are all set now. :)

@@ -7,6 +7,8 @@ import { createStore, applyMiddleware } from "redux";
 import reducers from "./reducers";
 import thunk from "redux-thunk";
 import Login from "./containers/Login";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Dashboard from "./containers/Dashboard";
 
 const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
@@ -14,9 +16,11 @@ const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter>
-      <div>
+      <div className="App-intro">
+        <Header/>
         <Route exact path="/" component={Login}/>
         <Route exact path="/Dashboard" component={Dashboard}/>
+        <Footer/>
       </div>
     </BrowserRouter>
   </Provider>, document.getElementById('root'));

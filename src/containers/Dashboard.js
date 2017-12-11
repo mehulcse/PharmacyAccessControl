@@ -1,6 +1,7 @@
 /**
- * Created by mehulcse on 09/12/17.
+ * Created by mehulcse on 11/12/17.
  */
+
 import React, { Component } from "react";
 import { getList, updateList } from "./../actions";
 import { connect } from "react-redux";
@@ -15,7 +16,7 @@ class Dashboard extends Component {
   }
 
   componentDidMount() {
-    if(this.props.user && this.props.user.type) {
+    if (this.props.user && this.props.user.type) {
       switch (this.props.user.type) {
       case 'patient':
         this.props.getList(`patient_id=${this.props.user.id}`);
@@ -31,7 +32,7 @@ class Dashboard extends Component {
   }
 
   renderTable = (user) => {
-    if(user && user.type) {
+    if (user && user.type) {
       switch (user.type) {
       case 'patient':
         return <PatientTable patientList={this.props.patientList}
@@ -50,9 +51,11 @@ class Dashboard extends Component {
 
   render() {
     return (
-      <div>
+      <div className="dashboard_content">
         <div>
-          <button onClick={()=>{this.props.history.push("/");}}>
+          <button onClick={()=> {
+            this.props.history.push("/");
+          }}>
             Logout
           </button>
         </div>
@@ -63,7 +66,7 @@ class Dashboard extends Component {
 }
 
 function mapStateToProps(state) {
-  return {user: state.users.user, patientList: state.users.patientList};
+  return { user: state.users.user, patientList: state.users.patientList };
 }
 
 function mapDispatchToProps(dispatch) {

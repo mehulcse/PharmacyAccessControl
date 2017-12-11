@@ -1,6 +1,7 @@
 /**
- * Created by mehulcse on 30/11/17.
+ * Created by mehulcse on 11/12/17.
  */
+
 import React, { Component } from "react";
 
 //components
@@ -44,7 +45,7 @@ class PatientTable extends Component {
       "accepted_auth_requests": patient.accepted_auth_requests,
       "type": patient.type,
       "name": patient.name,
-      "patient_id": 1,
+      "patient_id": patient.patient_id,
       "patient_name": patient.patient_name
     }, patient.id, filter);
   };
