@@ -33,4 +33,3 @@ Open http://localhost:3000
 
 You are all set now. :)
 
-Test string
